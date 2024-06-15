@@ -1,0 +1,32 @@
+.main-image {
+  height: 800px;
+  border: solid 0.1px transparent;
+  background-image: url(../../../assets/images/architect.jpg);
+  background-size: cover;
+}
+
+.main-image-content {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  width: max-content;
+  margin: auto;
+  margin-top: 380px;
+}
+
+.main-image-content-br {
+  font-weight: bolder;
+  font-size: 36px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 4px;
+  padding: 6px 14px;
+  color: #fff;
+  background-color: #000000c5;
+}
+.main-image-content-architects {
+  color: #fff;
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

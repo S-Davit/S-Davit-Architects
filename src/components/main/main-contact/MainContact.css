@@ -1,0 +1,37 @@
+.main-contact {
+  /* border: solid 6px green; */
+}
+
+.main-contact > p {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 15px;
+}
+
+.main-contact > form {
+  /* border: solid 4px red; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main-contact > form > input {
+  height: 40px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.main-contact > form > button {
+  background-color: #000;
+  color: #fff;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: max-content;
+  padding: 8px 16px;
+  border: none;
+}
+
+.main-contact > form > button:hover {
+  color: #000;
+  background-color: #ccc;
+}

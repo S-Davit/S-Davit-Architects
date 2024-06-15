@@ -1,0 +1,8 @@
+.main-map {
+  /* border: solid rgb(6, 0, 128); */
+  height: 840px;
+  background-image: url(../../../assets/images/main-map/map.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 50px 20px 8px 20px;
+}
